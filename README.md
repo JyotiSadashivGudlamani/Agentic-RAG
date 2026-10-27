@@ -364,15 +364,6 @@ http://127.0.0.1:8001/docs
 
 If the endpoint is missing, verify that the correct FastAPI application module is running and that the upload route is defined in `backend/app/main.py`.
 
-## Security and Privacy
-
-- Do not commit API keys, passwords, tokens, or private configuration files.
-- Exclude virtual environments, generated databases, and private uploaded documents from Git.
-- Do not upload confidential documents to a public repository.
-- Use a read-only database connection and restrict SQL operations when adding natural-language database querying.
-- Validate uploaded files and apply appropriate size and type restrictions.
-- A local LLM can still produce incorrect answers; verify important information independently.
-
 ## Future Enhancements
 
 The architecture can be extended with:
@@ -407,7 +398,3 @@ This project provides practical experience with:
 **Jyoti Sadashiv Gudlamani**
 
 GitHub: https://github.com/JyotiSadashivGudlaman
-
-## License
-
-Choose a license before distributing the project. If you want others to reuse the source code, consider the MIT License and include a corresponding `LICENSE` file. Without a license, standard copyright restrictions generally apply.
