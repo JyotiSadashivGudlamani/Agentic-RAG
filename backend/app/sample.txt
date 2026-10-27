@@ -1,0 +1,9 @@
+Agentic RAG is an AI application that combines
+information retrieval with a large language model.
+
+RAG stands for Retrieval-Augmented Generation.
+It retrieves relevant information from documents
+and uses that information to help generate answers.
+
+This project uses FastAPI as the backend and
+Ollama with the llama3.2:3b model for AI responses.
